@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Arimo', sans-serif;
+}
+
+/* header starts */
+header{
+    background-color: #ee3026;
+    color: white;
+    padding: 10px ;
+}
+
+header .latest{
+    width: 30%;
+}
+
+header .message{
+    width: 70%;
+}
+
+/* nav */
+
+nav .menu{
+    width: 70%;
+}
+nav .logo{
+    width: 30%;
+}
+
+nav .menu ul{
+    text-align: right;
+}
+
+nav .menu ul li{
+    display: inline-block;
+}
+
+nav .menu ul li a{
+    font-size: 16px;
+    color: #444;
+    text-transform: capitalize;
+    padding: 25px 20px;
+    display: block;
+    transition: 0.3s;
+}
+
+nav .menu ul li:hover a{
+    color: red;
+}
+
+nav .menu ul li:last-child a{
+    background-color: red;
+    color: white;
+}
+
+/* banner starts */
+
+#banner img{
+width: 100%;
+display: block;
+}
+
+/* about starts */
+
+#about{
+    padding: 40px 0;
+}
+
+#about .about_img{
+    width: 40%;
+}
+
+#about .about_img img{
+    width: 100%;
+    display: block;
+}
+
+#about .about_text{
+   width: 60%;
+ padding: 0 30px;
+}
+
+#about .about_text h2{
+    color: #5b6b80;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+#about .about_text p{
+ color: #777;
+ font-size: 16px;
+ line-height: 26px;
+ margin-top: 16px;
+}
